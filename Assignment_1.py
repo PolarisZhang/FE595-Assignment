@@ -16,5 +16,6 @@ def graph():
     plt.legend(['sin(x)', 'cos(x)'])
     plt.show()
 
-graph()
+if __name__ == '__main__':
+    graph()
 
